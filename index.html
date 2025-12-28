@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Privacy Policy — Meeto</title>
+  <meta name="description" content="Privacy Policy for Meeto" />
+  <style>
+    :root{
+      --bg:#0b1220;
+      --card:#0f1b33;
+      --text:#eaf0ff;
+      --muted:#b9c6e4;
+      --link:#7aa7ff;
+      --border:rgba(255,255,255,.10);
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      background: radial-gradient(1200px 500px at 20% -10%, #1a3c8a 0%, transparent 55%),
+                  radial-gradient(900px 500px at 100% 0%, #15306a 0%, transparent 55%),
+                  var(--bg);
+      color:var(--text);
+      line-height:1.6;
+    }
+    header{
+      padding:42px 16px 18px;
+      max-width:900px;
+      margin:0 auto;
+    }
+    h1{margin:0 0 6px;font-size:28px}
+    .sub{color:var(--muted);font-size:14px}
+    main{
+      max-width:900px;
+      margin:0 auto;
+      padding:0 16px 48px;
+    }
+    .card{
+      background:linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+      border:1px solid var(--border);
+      border-radius:16px;
+      padding:22px;
+      backdrop-filter: blur(8px);
+    }
+    h2{margin:22px 0 8px;font-size:18px}
+    h2:first-child{margin-top:0}
+    ul{margin:8px 0 0 20px}
+    a{color:var(--link);text-decoration:none}
+    a:hover{text-decoration:underline}
+    footer{
+      max-width:900px;
+      margin:18px auto 0;
+      padding:0 16px 36px;
+      color:var(--muted);
+      font-size:13px;
+    }
+    .badge{
+      display:inline-block;
+      padding:6px 10px;
+      border:1px solid var(--border);
+      border-radius:999px;
+      color:var(--muted);
+      font-size:12px;
+      margin-top:10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Privacy Policy</h1>
+    <div class="sub">for <strong>Meeto</strong></div>
+    <div class="badge">Last updated: <span id="lastUpdated">2025-12-28</span></div>
+  </header>
+
+  <main>
+    <div class="card">
+      <p>
+        Meeto respects your privacy and is committed to protecting your personal data.
+        This Privacy Policy explains how we collect, use, and safeguard information when you use our mobile application.
+      </p>
+
+      <h2>1. Information We Collect</h2>
+      <p>We may collect the following types of information:</p>
+
+      <h2>a) Personal Information</h2>
+      <ul>
+        <li>Basic profile information (such as name or nickname)</li>
+        <li>Email address (for account authentication)</li>
+        <li>User-generated content (activities created, messages sent)</li>
+      </ul>
+
+      <h2>b) Location Information</h2>
+      <ul>
+        <li>Approximate location (used to show nearby activities within a limited radius)</li>
+        <li>We do not collect precise GPS location in the background</li>
+      </ul>
+
+      <h2>c) Usage Data</h2>
+      <ul>
+        <li>App interactions (features used, crashes, performance data)</li>
+        <li>Device information (device type, OS version)</li>
+      </ul>
+
+      <h2>2. How We Use Your Information</h2>
+      <p>We use collected data to:</p>
+      <ul>
+        <li>Show relevant nearby activities</li>
+        <li>Enable participation in events</li>
+        <li>Provide in-app communication features</li>
+        <li>Improve app performance and user experience</li>
+        <li>Maintain safety and prevent abuse</li>
+      </ul>
+
+      <h2>3. Children’s Privacy</h2>
+      <p>
+        Meeto is not designed specifically for children under the age of 13.
+        If we become aware that personal information has been collected from a child under 13 without parental consent,
+        we will take steps to delete such information promptly.
+      </p>
+      <p>
+        Parents or guardians may contact us if they believe their child has provided personal data.
+      </p>
+
+      <h2>4. Data Sharing</h2>
+      <p>We do not sell personal data.</p>
+      <p>Data may be shared only:</p>
+      <ul>
+        <li>With service providers necessary for app functionality (e.g., authentication, hosting)</li>
+        <li>If required by law or legal process</li>
+        <li>To protect users, safety, or rights</li>
+      </ul>
+
+      <h2>5. Data Security</h2>
+      <p>
+        We use reasonable technical and organizational measures to protect your data.
+        However, no system is 100% secure, and we cannot guarantee absolute security.
+      </p>
+
+      <h2>6. User Choices</h2>
+      <p>You may:</p>
+      <ul>
+        <li>Edit or delete your account information</li>
+        <li>Disable location access through device settings</li>
+        <li>Request account deletion by contacting us</li>
+      </ul>
+
+      <h2>7. Changes to This Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time.
+        Changes will be reflected on this page with an updated date.
+      </p>
+
+      <h2>8. Contact Us</h2>
+      <p>If you have questions about this Privacy Policy or your data, contact us at:</p>
+      <ul>
+        <li>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></li>
+      </ul>
+
+      <hr style="border:none;border-top:1px solid var(--border);margin:20px 0" />
+
+      <p class="sub">
+        Tip: Replace <strong>your-email@example.com</strong> with your real support email before publishing.
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Meeto (MeetBay). All rights reserved.
+  </footer>
+
+  <script>
+    // Optional: auto-set year
+    document.getElementById("year").textContent = new Date().getFullYear();
+    // Optional: update the "Last updated" date quickly if you want
+    // document.getElementById("lastUpdated").textContent = new Date().toISOString().slice(0,10);
+  </script>
+</body>
+</html>
